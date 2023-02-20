@@ -24,7 +24,7 @@ $array = [
     ]
 ];
 
-$curlOrder = curlToAction(URL_ORDER_SANDBOX, ACCESS_TOKEN_SANDBOX, "POST", $array);
+$curlOrder = curlToAction(URL_ORDER_SANDBOX, "POST", $array);
 
 print_r($curlOrder);
 
