@@ -17,7 +17,7 @@ define("URL_OAUTH_SANDBOX", "https://sandbox.codeswholesale.com/oauth/token");
 /**
  * Curl vers https://sandbox.codeswholesale.com/oauth/token
  * @param string $url Url oauth
- * @return $result
+ * @return object $result
  */
 function curlToOauth($url)
 {
