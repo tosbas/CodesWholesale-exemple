@@ -32,8 +32,8 @@ define("URL_ORDER_SANDBOX",  "/v2/orders");
  * Curl vers https://sandbox.codeswholesale.com/v2/{action} 
  * @param string $action Action 
  * @param string $type POST, GET
- * @param array $params POSTFIELD 
- * @return $result
+ * @param array $params [optionnal] POSTFIELDS
+ * @return object $result
  * @see https://codeswholesale.com/documentation/
  */
 function curlToAction($action, $type, $params = [])
