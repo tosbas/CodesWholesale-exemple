@@ -30,6 +30,6 @@ print_r($curlOrder);
 
 //******* Get Produits exemple  *******/
 
-$curlProduct = curlToAction(URL_PRODUCT_SANDBOX, "GET", []);
+$curlProduct = curlToAction(URL_PRODUCT_SANDBOX, "GET");
 
 print_r($curlProduct);
